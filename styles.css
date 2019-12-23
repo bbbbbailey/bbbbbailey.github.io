@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.header {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+
+img.profile {
+    height: 175px;
+    width: 175px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    border-radius: 15px;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+    z-index: -1;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.flex.center {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex.things {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.flex.things > li {
+    margin-right: 1rem;
+}
+
+.language-pill {
+    padding: 0.25rem;
+    background-color: #aaa;
+    display: block;
+    border-radius: 15px;
+}
+
+.flex.social {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flex.social > li > a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.box {
+    background-color: #020300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+    .box {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .box {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 75%;
+    }
+}
+
